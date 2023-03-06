@@ -1,20 +1,22 @@
 {
-  "name": "bl-node-1",
+  "name": "test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-havr/nodejs-blended.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Ihor Havrylov",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.21"
+  "bugs": {
+    "url": "https://github.com/i-havr/nodejs-blended/issues"
   },
-  "dependencies": {
-    "chalk": "4.1.2",
-    "joi": "^17.8.3",
-    "yargs": "^17.7.1"
-  }
+  "homepage": "https://github.com/i-havr/nodejs-blended#readme"
 }
